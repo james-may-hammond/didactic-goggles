@@ -1,0 +1,22 @@
+{
+  "name": "ci-cd",
+  "version": "1.0.0",
+  "description": "This is a demo project via which I am learning devops",
+  "main": "hello.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-may-hammond/didactic-goggles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/james-may-hammond/didactic-goggles/issues"
+  },
+  "homepage": "https://github.com/james-may-hammond/didactic-goggles#readme"
+}
