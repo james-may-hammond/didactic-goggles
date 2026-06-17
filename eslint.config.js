@@ -1,8 +1,16 @@
 module.exports = {
-  ignorePatterns: ["node_modules/"],
+  ignores: ["node_modules/**"],
   languageOptions: {
     ecmaVersion: "latest",
-    sourceType: "script"
+    sourceType: "script",
+    globals: {
+      module: "readonly",
+      console: "readonly",
+      setTimeout: "readonly",
+      clearTimeout: "readonly",
+      setInterval: "readonly",
+      clearInterval: "readonly"
+    }
   },
   rules: {
     "no-unused-vars": ["warn", { vars: "all", args: "after-used", ignoreRestSiblings: true }],
