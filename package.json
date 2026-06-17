@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/james-may-hammond/didactic-goggles/issues"
   },
-  "homepage": "https://github.com/james-may-hammond/didactic-goggles#readme"
+  "homepage": "https://github.com/james-may-hammond/didactic-goggles#readme",
+  "dependencies": {
+    "eslint": "^10.5.0"
+  }
 }
